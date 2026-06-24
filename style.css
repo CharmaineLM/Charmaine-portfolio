@@ -144,12 +144,116 @@ body {
     color: #2563eb;
     margin-bottom: 40px;
 }
+.about-section {
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+  padding: 100px 0;
+}
 
-.about-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+.about-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.about-photo img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #ffffff;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.22);
+}
+
+.laptop {
+  width: 680px;
+  position: relative;
+}
+
+.laptop-screen {
+  background: #f8fafc;
+  border: 14px solid #0f172a;
+  border-radius: 22px 22px 10px 10px;
+  padding: 35px;
+  min-height: 360px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.2);
+}
+
+.laptop-screen h2 {
+  color: #2563eb;
+  text-align: left;
+}
+
+.laptop-screen p {
+  color: #334155;
+}
+
+.laptop-camera {
+  width: 8px;
+  height: 8px;
+  background: #94a3b8;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  z-index: 2;
+}
+
+.laptop-base {
+  height: 28px;
+  width: 760px;
+  background: #0f172a;
+  border-radius: 0 0 45px 45px;
+  margin-left: -40px;
+}
+
+.laptop-shadow {
+  height: 20px;
+  width: 620px;
+  background: rgba(15,23,42,0.25);
+  border-radius: 50%;
+  margin: 18px auto 0;
+}
+
+.skills-section {
+  background: #ffffff;
+}
+
+.phone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.phone {
+  background: #f8fafc;
+  border: 10px solid #0f172a;
+  border-radius: 38px;
+  padding: 35px 20px;
+  min-height: 420px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(15,23,42,0.14);
+}
+
+.phone-speaker {
+  width: 55px;
+  height: 6px;
+  background: #0f172a;
+  border-radius: 20px;
+  margin: 0 auto 25px;
+}
+
+.phone h3 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.phone p {
+  background: white;
+  color: #334155;
+  padding: 9px;
+  border-radius: 15px;
+  margin: 10px 0;
 }
 
 .laptop-card{
