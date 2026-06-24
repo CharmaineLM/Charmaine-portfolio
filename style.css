@@ -178,7 +178,9 @@ body {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-
+.laptop-screen h2 {
+  margin-left: 70px;
+}
 .laptop-screen p {
   color: #334155;
   margin-bottom: 15px;
