@@ -45,8 +45,9 @@ body {
 }
 
 .logo {
-  color: white;
-  font-size: 1.8rem;
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .nav-links a {
@@ -57,6 +58,7 @@ body {
 }
 
 .hero-content {
+  justify-content: center;
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -66,11 +68,14 @@ body {
 }
 
 .hero-text {
-  max-width: 650px;
-  background: rgba(15, 23, 42, 0.42);
-  padding: 40px;
+  max-width: 750px;
+  width: 100%;
+  .hero-text {
+  background: rgba(15, 23, 42, 0.40);
+  padding: 50px;
   border-radius: 30px;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(8px);
+}
 }
 
 .intro {
@@ -80,9 +85,9 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 4rem;
-  line-height: 1.1;
-  margin-bottom: 20px;
+  font-size: 5rem;
+  line-height: 1;
+  margin-bottom: 25px;
 }
 
 .hero-text h3 {
@@ -127,22 +132,23 @@ body {
 
 .profile-mini {
   position: absolute;
-  top: -75px;
-  left: -65px;
+  top: -85px;
+  left: -85px;
   z-index: 10;
   background: linear-gradient(135deg, #2563eb, #93c5fd);
   padding: 12px;
   border-radius: 50%;
   box-shadow: 0 25px 50px rgba(15, 23, 42, 0.3);
 }
+.profile-mini img{
+    width: 180px;
+    height: 180px;
 
-.profile-mini img {
-  width: 145px;
-  height: 145px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 6px solid white;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
 }
+
 
 .laptop-camera {
   width: 9px;
