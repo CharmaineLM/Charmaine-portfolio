@@ -59,6 +59,7 @@ body {
 
 .hero-content {
   justify-content: center;
+  gap: 80px;
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -68,15 +69,15 @@ body {
 }
 
 .hero-text {
-  max-width: 750px;
-  width: 100%;
+  max-width: 650px;
+}
   .hero-text {
   background: rgba(15, 23, 42, 0.40);
   padding: 50px;
   border-radius: 30px;
   backdrop-filter: blur(8px);
 }
-}
+
 
 .intro {
   color: #dbeafe;
