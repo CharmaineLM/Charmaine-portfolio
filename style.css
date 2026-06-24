@@ -59,7 +59,7 @@ body {
 
 .hero-content {
   justify-content: center;
-  gap: 80px;
+  gap: 50px;
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -69,13 +69,15 @@ body {
 }
 
 .hero-text {
-  max-width: 650px;
-}
-  .hero-text {
-  background: rgba(15, 23, 42, 0.40);
-  padding: 50px;
-  border-radius: 30px;
-  backdrop-filter: blur(8px);
+  max-width: 600px;
+
+  background: rgba(15, 23, 42, 0.35);
+
+  padding: 35px;
+
+  border-radius: 28px;
+
+  backdrop-filter: blur(6px);
 }
 
 
@@ -86,9 +88,9 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 5rem;
-  line-height: 1;
-  margin-bottom: 25px;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .hero-text h3 {
