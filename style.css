@@ -406,4 +406,122 @@ footer {
   .contact-info {
     flex-direction: column;
   }
+/* RESPONSIVE DESIGN */
+
+/* Smaller laptops */
+@media (max-width: 1200px) {
+  .hero-text {
+    max-width: 650px;
+  }
+
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .laptop {
+    width: 700px;
+  }
+
+  .laptop-base {
+    width: 780px;
+    margin-left: -40px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hero-content {
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .hero-text {
+    max-width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .profile-mini {
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .laptop-screen {
+    padding: 105px 28px 35px;
+  }
+
+  .laptop-base {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+
+  .hero-text {
+    padding: 28px;
+    border-radius: 22px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 65px 0;
+  }
+
+  .about-section {
+    padding: 100px 0 70px;
+  }
+
+  .profile-mini img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .laptop-screen {
+    border: 12px solid #0f172a;
+    padding: 90px 20px 30px;
+  }
+
+  .laptop-screen h2 {
+    text-align: center;
+  }
+
+  .phone {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .project-links,
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .project-links a,
+  .contact-info a {
+    text-align: center;
+  }
 }
